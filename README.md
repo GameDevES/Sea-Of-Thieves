@@ -1,1 +1,1 @@
-# Sea-Of-Thieves
+# Sea Of Thieves

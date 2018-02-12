@@ -1,8 +1,3 @@
-const Discord = require("discord.js");
-const client = new Discord.Client();
+﻿const SOT = require('./lib/src/client');
 
-client.on('ready', () => {
-    console.log(`Logeado como ${client.user.tag}`);
-});
-
-client.login()
+new SOT({}).login('MzY0ODE1MDAwNTI4NzQ4NTU0.DWMMJQ.yWC0RFLADuthJvsybbqC2J2Km4Q');

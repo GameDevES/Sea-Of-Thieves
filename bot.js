@@ -1,3 +1,4 @@
 ﻿const SOT = require('./lib/src/client');
+const config = require('./config');
 
-new SOT({}).login('');
+new SOT({}).login(config.token);
